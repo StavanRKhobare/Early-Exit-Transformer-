@@ -1,0 +1,11 @@
+torch
+torchvision
+timm
+nvidia-ml-py
+numpy
+pandas
+matplotlib
+pillow
+tabulate
+nbconvert
+ipykernel
