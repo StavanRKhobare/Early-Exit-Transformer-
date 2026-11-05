@@ -2,6 +2,8 @@
 
 *Project context document: everything decided, rejected and learned so far.*
 
+**Status (2026-11-05):** The overnight proof of concept finished: a shared backbone across merge schedules, patch-average exits and selection with an exact bound. It measured about 35% energy saved at batch 32 and −0.24 points on test, from one trained backbone. See "Overnight results" in `NEXT_STEPS.md`.
+
 **Status (2026-11-01):** All stages finished on the GTX 1650 and CPU, plus a float32 GPU regime and cooled float32 runs. Results, figures, conditions and limits: `RESULTS.md`. Merging adds about 10 points of measured savings over exit alone at batch 32+ and 0.3–2.5 at batch 1, and merge alone cost more than B0 on cooled float32 at batch 1. Float16 autocast is about 3.4x slower than float32 on this card. Older sections of this file describe the plan and earlier runs, whose results are invalid (Section 14).
 
 ---
